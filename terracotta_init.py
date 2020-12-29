@@ -68,7 +68,7 @@ for raster_path in aws_rasters:
         #if keys in available_datasets:
         #    continue
         print('Connecting to db for keys: ',raster_path[1], raster_path[2],raster_path[3], band)
-        pritn('For file name: ', raster_path[0]+band+'.tif')
+        print('For file name: ', raster_path[0]+band+'.tif')
         with driver.connect():
             # since the rasters will be served from S3, we need to pass the correct remote path
             #driver.insert(keys, raster_path, override_path=f'{S3_PATH}/{raster_filename}')
