@@ -9,7 +9,7 @@ s3 = boto3.resource('s3')
 import terracotta as tc
 
 # settings
-DB_NAME = 'terracotta.sqlite'
+DB_NAME = 'tc.sqlite'
 #RASTER_GLOB = r'/path/to/rasters/*.tif'
 #RASTER_NAME_PATTERN = r'(?P<sensor>\w{2})_(?P<tile>\w{5})_(?P<date>\d{8})_(?P<band>\w+).tif'
 KEYS = ('sensor', 'tile', 'date', 'band')
