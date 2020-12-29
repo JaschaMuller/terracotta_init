@@ -38,15 +38,15 @@ available_datasets = driver.get_datasets()
 
 #'http://landsat-pds.s3.amazonaws.com/
 #http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/
-aws_rasters = [['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/BK/2019/2/S2B_34HBK_20190228_0_L2A/','S2','20190228']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/33/H/YC/2019/2/S2B_33HYC_20190218_0_L2A/','S2','20190218']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/BJ/2019/1/S2B_34HBJ_20190126_0_L2A/','S2','20190126']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/BH/2019/2/S2B_34HBH_20190205_0_L2A/','S2','20190205']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/CJ/2019/1/S2A_34HCJ_20190121_0_L2A/','S2','20190121']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/33/H/YE/2019/2/S2A_33HYE_20190213_0_L2A/','S2','20190213']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/CH/2019/1/S2B_34HCH_20190106_0_L2A/','S2','20190106']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/CK/2019/1/S2A_34HCK_20190121_0_L2A/','S2','20190121']
- ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/DH/2019/1/S2B_34HDH_20190106_0_L2A/','S2','20190106']
+aws_rasters = [['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/BK/2019/2/S2B_34HBK_20190228_0_L2A/','S2','20190228'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/33/H/YC/2019/2/S2B_33HYC_20190218_0_L2A/','S2','20190218'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/BJ/2019/1/S2B_34HBJ_20190126_0_L2A/','S2','20190126'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/BH/2019/2/S2B_34HBH_20190205_0_L2A/','S2','20190205'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/CJ/2019/1/S2A_34HCJ_20190121_0_L2A/','S2','20190121'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/33/H/YE/2019/2/S2A_33HYE_20190213_0_L2A/','S2','20190213'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/CH/2019/1/S2B_34HCH_20190106_0_L2A/','S2','20190106'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/CK/2019/1/S2A_34HCK_20190121_0_L2A/','S2','20190121'],
+ ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/34/H/DH/2019/1/S2B_34HDH_20190106_0_L2A/','S2','20190106'],
  ['http://sentinel-cogs.s3.amazonaws.com/sentinel-s2-l2a-cogs/33/H/YD/2019/1/S2A_33HYD_20190124_0_L2A/','S2','20190124']]
 
 #for raster_path in pbar:
